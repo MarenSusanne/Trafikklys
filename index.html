@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body onload="automate()">
+    <div class="trafficlight">
+        <div class="light" id="red" ></div>
+        <div class="light" id="yellow"></div>
+        <div class="light" id="green"></div>
+    </div>
+    <div class="buttons">
+        <button onclick="startlightsred()">Rødt</button>
+        <button onclick="startlightsyellow()">Gult</button>
+        <button onclick="startlightsgreen()">Grønt</button>
+        <button onclick="automate()">Auto</button>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

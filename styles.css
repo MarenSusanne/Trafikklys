@@ -1,0 +1,30 @@
+.light{
+    background-color: aliceblue;
+    border-radius: 50%;
+    height: 20vh;
+    width: 20vh;
+}
+.trafficlight{
+    margin-left: 8vw;
+    margin-top: 5vh;
+    background-color: gray;
+    padding: 2vh 2vh 2vh 2vh;
+    width: fit-content;
+    border-radius: 100px;
+}
+button{
+    width: 4vw;
+    font-size: large;
+    margin: 1px;
+    border-radius: 20px;
+}
+.buttons{
+    width: 4vw;
+    margin-top: -38vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+body{
+    margin-left: 2vw;
+}
